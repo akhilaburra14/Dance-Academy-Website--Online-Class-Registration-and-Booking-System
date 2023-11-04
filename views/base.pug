@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Akhila Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/images/dancelogo.avif")
+                | ADA 
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Service class infos]
+            li #[a(href='/') Class Info]
+            li #[a(href='/contact') Contact Us]
+
+    block content
+    block foot
+      section#footerssection
+        | Copyright © 2023 Akhila Dance Academy. | All rights reserved.

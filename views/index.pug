@@ -1,0 +1,49 @@
+doctype html
+html
+  head 
+    title Akhila's Dance Academy
+    style 
+        include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/images/dancelogo.avif")
+                | ADA 
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Service class infos]
+            li #[a(href='/') Class Info]
+            li #[a(href='/') Contact Us]
+    
+    section#introsection
+        div  Welcome to Akhila's Dance Academy 
+        div.small  Dance Beyond Boundaries, Express Beyond Words.
+
+    section#missionsection
+        h2 our mission 
+        div.card
+                img(src="/static/images/dance4.jpg")
+                h3 Learn From Basic
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+
+        div.card 
+            img(src="/static/images/dance5.jpg")
+            h3 dance like a pro
+            p Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+
+        div.card
+            img(src="/static/images/dance6.jpg") 
+            h3 express the love
+            p Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    section#sponsorssection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/images/sp1.jpg", alt="soul cycle" class="spimg")
+            img(src="/static/images/spimage2.jpg", alt="fitbit" class="spimg")
+            img(src="/static/images/spimage3.png", alt="" class="spimg")
+    section#footerssection
+        | Copyright © 2023 Akhila Dance Academy. | All rights reserved.
+
+    //- script 
+    //-     include ..static/index.js
